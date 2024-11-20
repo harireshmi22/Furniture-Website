@@ -449,3 +449,209 @@ a {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
+.sale__section {
+    margin-inline: auto;
+    height: 400px;
+    padding: 0 1em;
+    margin-top: 4em;
+    background-color: rgb(233, 241, 244);
+}
+
+.sale__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+}
+
+.sale__section .sale__info {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sale__info h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.sale__info h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(57, 65, 68);
+}
+
+.card__image {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.sales__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sale__info button {
+    padding: 0.5em 1.5em;
+    background-color: #333;
+    font-size: 1.2em;
+    color: white;
+    margin-top: 1em;
+}
+
+/*==============================Blog Container==============================================*/
+
+.blog__container {
+    max-width: var(--max-width);
+    padding: 0 3em;
+    margin-inline: auto;
+    margin-top: 5em;
+}
+
+.blog__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.blog__info h2 {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.blog__info p {
+    font-size: 1em;
+    color: #AAAAAA;
+}
+
+.blog__content {
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.blog__image {
+    width: 400px;
+    height: 300px;
+}
+
+.blog__card .blog__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog__infos {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.blog__infos h4 {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.blog__card h6 {
+    margin-top: 1em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+/*==========================Footer section========================================*/
+
+footer {
+    margin-top: 4em;
+    background-color: rgb(30, 107, 115);
+}
+
+.footer__section {
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__heading {
+    display: flex;
+    justify-content: space-around;
+    gap: 5em;
+}
+
+.footer__icon {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.footer__logo p {
+    margin-top: 1em;
+    color: white;
+}
+
+.footer__logo h2 {
+    font-size: 2em;
+    font-weight: 500;
+    color: rgb(204, 191, 191);
+}
+
+.footer__logo h2 span {
+    color: orange;
+}
+
+.footer__icon .card__icon {
+    border: 1px solid white;
+    padding: 0.6em;
+    border-radius: 50%;
+}
+
+.footer__icon .card__icon i {
+    font-size: 1.2em;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__links h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.footer__links li {
+    margin-top: 1em;
+}
+
+.footer__links li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__bar {
+    max-width: 1200px;
+    margin-inline: auto;
+    border-top: 1px solid white;
+    color: white;
+    padding: 2em;
+    text-align: center;
+    font-size: 1em;
+}
